@@ -15,17 +15,17 @@ public class Modul3Fase3 {
 			String ciutat6;
 			Scanner  nomCiutat = new Scanner(System.in);
 
-		    System.out.println("Intropduiex el nom de la 1ª ciutat");
+		    System.out.println("Introduiex el nom de la 1ª ciutat");
 		    ciutat1 = nomCiutat.nextLine();
-		    System.out.println("Intropduiex el nom de la 2ª ciutat");
+		    System.out.println("Introduiex el nom de la 2ª ciutat");
 		    ciutat2 = nomCiutat.nextLine();
-		    System.out.println("Intropduiex el nom de la 3ª ciutat");
+		    System.out.println("Introduiex el nom de la 3ª ciutat");
 		    ciutat3 = nomCiutat.nextLine();
-		    System.out.println("Intropduiex el nom de la 4ª ciutat");
+		    System.out.println("Introduiex el nom de la 4ª ciutat");
 		    ciutat4 = nomCiutat.nextLine();
-		    System.out.println("Intropduiex el nom de la 5ª ciutat");
+		    System.out.println("Introduiex el nom de la 5ª ciutat");
 		    ciutat5 = nomCiutat.nextLine();
-		    System.out.println("Intropduiex el nom de la 6ª ciutat");
+		    System.out.println("Introduiex el nom de la 6ª ciutat");
 		    ciutat6 = nomCiutat.nextLine();
 		    nomCiutat.close();
 		    System.out.println(" "); 
@@ -34,7 +34,7 @@ public class Modul3Fase3 {
 		    System.out.println(" "); 
 		    String [] arrayCiutat = {ciutat1,ciutat2,ciutat3,ciutat4,ciutat5,ciutat6};
 		    for (int i=0;i<arrayCiutat.length;i++) {
-		    	System.out.println("La ciutat que està a la posició "+(i+1)+" al array es : "+arrayCiutat[i]);
+		    	System.out.println("La ciutat que està a la posició "+(i+1)+" al array és : "+arrayCiutat[i]);
 		    	}
 		    System.out.println(" "); 
 		    Arrays.sort(arrayCiutat);
