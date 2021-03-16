@@ -34,7 +34,7 @@ public class Modul3Fase3 {
 		    System.out.println(" "); 
 		    String [] arrayCiutat = {ciutat1,ciutat2,ciutat3,ciutat4,ciutat5,ciutat6};
 		    for (int i=0;i<arrayCiutat.length;i++) {
-		    	System.out.println("La ciutat que està a la posició "+(i+1)+" al array és : "+arrayCiutat[i]);
+		    	System.out.println("La ciutat que està a la posició "+(i+1)+" al array és: "+arrayCiutat[i]);
 		    	}
 		    System.out.println(" "); 
 		    Arrays.sort(arrayCiutat);
